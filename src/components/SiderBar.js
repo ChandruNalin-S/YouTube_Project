@@ -11,7 +11,7 @@ const SiderBar = () => {
   if(!menuView) return null;// this is called a early return pattern.
 
   return (
-    <div className='w-48 shadow-lg p-6'>
+    <div className='w-45 shadow-lg p-6 fixed bg-white top-20 bottom-0 z-10'>
       <ul>
         <li><Link to='/'>Home</Link></li>
         <li>Shorts</li>

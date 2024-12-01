@@ -1,7 +1,7 @@
 import React from 'react'
 
 const VideoCard = ({info}) => {
-  console.log(info);
+  //console.log(info);
   if(!info) return;
 
   const {snippet,statistics} = info;
@@ -17,6 +17,16 @@ const VideoCard = ({info}) => {
         <li>{channelTitle}</li>
         <li>{viewCount} Views</li>
       </ul>
+    </div>
+  )
+}
+
+
+
+export const AdVideoCard = ({info})=>{// higher order component-> the function recieve the component and return a new component like enchance component.
+  return(
+    <div className='border border-black'>
+      <VideoCard info={info}/>
     </div>
   )
 }
