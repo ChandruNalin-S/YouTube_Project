@@ -15,3 +15,6 @@ export const YOUTUBE_VIDEOS_API = process.env.REACT_APP_YOUTUBE_VIDEOS_API+ GOOG
 
 
 export const YOUTUBE_SEARCH_API = "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+
+
+export const OFFSET_LIVE_CHAT = 10;
